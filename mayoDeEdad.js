@@ -35,7 +35,12 @@ async function compararNumero() {
 }
 
 
-const btnInventario = document.getElementById('btnInventario');
+const btnInv = document.getElementById('btnInventario');
+
+
+btnInv.onclick = () => {
+    consultarStock();
+}
 
 var inventario = {
     "sopa": 12,
