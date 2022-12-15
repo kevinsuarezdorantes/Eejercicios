@@ -1,4 +1,44 @@
 
+
+
+// ejercicio promedio
+
+
+const btnProm = document.getElementById('btnPromedio');
+
+
+btnProm.onclick = () => {
+    sacarPromedio();
+}
+
+async function sacarPromedio(){
+
+var numMaterias = prompt("Igresa el numero de materias");
+
+var total = 0;
+var promedio = 0;
+
+for(i = 0; i < numMaterias; i++){
+    total += Number(prompt("ingresa la calificacion de la materia numero " + (i+1)));
+
+}
+
+promedio = total/numMaterias;
+
+if(promedio < 6){
+    alert("El alumno ha reprobado,como promedio sacó: " + promedio);
+}else{
+    alert("el alumno ha aprobado, PARABENS!, como promedio sacó: " + promedio )
+}
+
+}
+
+
+
+// ejercicio promedio
+
+
+
 const btnNum = document.getElementById('btnNumMayor');
 
 

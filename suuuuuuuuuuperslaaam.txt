@@ -1,0 +1,17 @@
+hacer un programa que calcule el promedio de las calificaciones de un alumno y decir si aprobop o reprobo el semestre
+
+en la primera se pregunta el numerto de materias y esa va a ser con FOR y en la segunda se tiuene que preguntar ¿QUIERES AGREGAR OTRA? 
+hasta que se rompa ekl ciclo con while
+
+prompt de inrgeresa el numero de materias
+se guarda en la variable materias
+se crrea variable total = 0
+se crea variable promedio =0
+se abre el for con la condicion <= materias
+	total = prompt iongresa calif
+fin del for
+promedio = total /materias
+if promedio <6
+	alert reprrobo
+else
+	alert aprobo
