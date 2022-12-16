@@ -118,9 +118,9 @@ btnNum.onclick = () => {
 
 async function compararNumero() {
 
-    var num1 = prompt("Ingrese su primer numero por favor");
-    var num2 = prompt("Ingrese su segundo numero por favor");
-    var num3 = prompt("Ingrese tercer numero por favor");
+    var num1 = Number(prompt("Ingrese su primer numero por favor"));
+    var num2 = Number(prompt("Ingrese su segundo numero por favor"));
+    var num3 = Number(prompt("Ingrese tercer numero por favor"));
 
     if (num1 > num2 && num1 > num3) {
 
@@ -140,7 +140,7 @@ async function compararNumero() {
     }
 
 }
-
+// fin de funcioin comparar tres numeros
 
 const btnInv = document.getElementById('btnInventario');
 
