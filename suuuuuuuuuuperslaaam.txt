@@ -15,3 +15,21 @@ if promedio <6
 	alert reprrobo
 else
 	alert aprobo
+
+ARREGLARO DE LO DE EL PROMT DE COMPARAR NUMEROS PARA QUE NO SEA STRING Y SEA INT CON Number
+
+
+
+se va a crear la variable materia que seria string,promedio que seria int y total que seria int
+
+se pregunta al usuario que ingrese el numbre de la primera materia y de la segunda
+
+con una bandera que seria booleano inicializado en true se le pregunta al usuario si quire ingresar otra materia hasta que
+ diga que no 
+
+se van sumando las calificaciones y se saca el promedio y se le muestra al usuario dicioendo si aprobo o no
+
+
+
+
+

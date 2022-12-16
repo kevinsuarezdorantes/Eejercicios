@@ -1,9 +1,76 @@
+// ejercicio promedio con while
 
+const btnPromW = document.getElementById('btnPromedioWhile');
+
+
+btnPromW.onclick = () => {
+    sacarPromedioWhile();
+}
+
+
+async function sacarPromedioWhile(){
+
+var materiaActual;
+var SumatoriaCalificacion = 0;
+var bandera = true;
+var ia = 0;
+var i = 0;
+var decicion = "";
+var materias = []
+
+while(bandera == true){
+
+    materiaActual = prompt("Ingresa el nombre de la materia");
+    
+    materias.push(materiaActual);
+    decicion = prompt("¿Quieres agregar otra materia?");
+
+    if(decicion == "si"){
+        bandera = true
+    }else{
+
+        bandera = false;
+        if(materias.length < 2){
+            alert("no se puede sacar promedio de una sola materia, tas loco pai")
+        }
+        
+    }
+
+   
+    
+
+}
+
+while(i < materias.length){
+    SumatoriaCalificacion += Number(prompt("ingresa la calificacion de " + materias[ia]));
+    i++;
+    ia++;
+}
+
+promedioW = SumatoriaCalificacion/materias.length;
+alert(promedioW)
+
+if(promedioW < 6){
+    alert("El alumno ha reprobado,como promedio sacó: " + promedioW);
+}else{
+    alert("el alumno ha aprobado, PARABENS!, como promedio sacó: " + promedioW )
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+// ejercicio promedio con while
 
 
 // ejercicio promedio
-
-
 const btnProm = document.getElementById('btnPromedio');
 
 
